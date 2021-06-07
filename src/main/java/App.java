@@ -28,7 +28,6 @@ import util.UsrInput;
 public class App {
 
     public static void main(String[] args) {
-        String username = UsrInput.getUsername();
         String password = UsrInput.getPassword();
         int passwordValidation = Processing.validatePassword(password);
         Output.printOutput(passwordValidation);
